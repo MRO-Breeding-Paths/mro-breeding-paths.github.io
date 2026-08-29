@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>MRO Breeding Rules</title>
+        
+        <meta charset="UTF-8">
+        <meta name="description" content="Known MRO breeding rules">
+        <meta name="author" content="Hinozerel">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <script src="Scripts/DataLoading.js"></script>
+        <script src="Scripts/test.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>MRO Breeding Paths</h1>
+            <button id="loadButton" onclick="PageLoaded()">Load Rules</button>
+            <button id="aboutButton" class="aboutButton" title="About" onclick="About()"></button>
+
+        </div>
+        <section id="monsterList" class="monster-list">
+            <input type="text" placeholder="search..." class="search" onkeyup="filterMonsterList(event)">
+        </section>
+        <section id="breedingPath" class="breeding-path">
+            <section id="aboutSection" class="hidden">
+                <table>
+                    <tr>
+                        <td>Creator:</td>
+                        <td>Discord:</td>
+                        <td>@Hinozerel</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>MRO Profile:</td>
+                        <td><a target="_blank" href="https://beta.monsterranch.io/user.php?userid=84604">Hinozerel</a></td>
+                    </tr>
+                </table>
+                <p>
+                <a target="_blank" href="https://docs.google.com/spreadsheets/d/1pJVXsbhZPPzHIr9ciOmRsSorCphAIOs1XA32qU0k_Bc/edit?gid=1456856009#gid=1456856009">Spreadsheet for encounter data and breeding rules</a>
+
+
+                <h2 style="border-bottom: 2px solid white">How to use this tool</h2>
+                To begin, the "Load Rules" button at the top of the page must be clicked.
+                <p>
+                The left side panel will be loaded with all the known breeding rules. Each card shows the monster
+                that results from the breeding rule.
+                <p>
+                The search bar at the top of the left side panel can be used to filter out the list of monsters by
+                name or by type. For example, typing "Arkly" will result in only the card for Arkly being shown, and
+                typing "Air" will result in all breeding rules that result in a monster with the Air type being shown.
+
+                <h2 style="border-bottom: 2px solid white" title="DRAW!">Monster Cards</h2>
+                <div style="display: flex;">
+                    <div class="monster">
+                        <div class="sprite"><img src="sprites/dpmfa608.png"><img src="sprites/grass.png" class="grass">
+                        </div>
+                        <div class="name">Aquahorse</div>
+                        <div><img src="sprites/male.png" alt="Water"></div>
+                        <div class="types">
+                            <div class="type"><img src="sprites/element-water.png" alt="Water"></div>
+                            <div class="type"><img src="sprites/element-water.png" alt="Water"></div>
+                        </div>
+                    </div>
+                    <div style="margin-left: 10px;">
+                        This is an example of a monster card. All cards will include the monster's sprite, name, and types.
+                        <p>
+                        Some cards will have a grass icon next to the monster's sprite, like Aquahorse's. This means that
+                        the monster or its first mutation form is obtainable in the wild.
+                        <p>
+                        When the monster card is being displayed as a parent for a breeding rule, it will include an icon
+                        to indicate which gender the monster needs to be for the breeding rule. Breeding rules involving
+                        the monster Niegg can swap parent genders, so each parent will display both gender icons.
+                    </div>
+                </div>
+
+                <div style="display: flex; margin: 20px 0;">
+                    <div class="monster">
+                        <div><img src="sprites/male.png" alt="male"></div>
+                        <div class="types">
+                            <div class="type"><img src="sprites/element-water.png" alt="Water"></div>
+                            <div class="type"><img src="sprites/element-basic.png" alt="Basic"></div>
+                        </div>
+                    </div>
+                    <div style="margin-left: 10px;">
+                        For Type Rules, there is no specific monster needed, so there is no sprite or name.
+                        <p>
+                        For these rules, the monster card will simply be the required parent gender and typing.
+                        <p>
+                        Remember that the parent types must match exactly. Water/Basic is not the same as Basic/Water.
+                    </div>
+                </div>
+
+                <h2 style="border-bottom: 2px solid white">Wilds Spawns</h2>
+                For monsters that are available in the wild, a box showing which maps it is available in will be shown.
+                My <a target="_blank" href="https://docs.google.com/spreadsheets/d/1pJVXsbhZPPzHIr9ciOmRsSorCphAIOs1XA32qU0k_Bc/edit?gid=1456856009#gid=1456856009">encounter spreadsheet</a>
+                can be used to see encounter rates for all monsters on all maps, to determine a preferred location to search.
+                <p>
+                If the breeding rule being shown requires the wild monster to be mutated, the mutated form will also be shown.
+
+                <div class="wildSpawn">
+                    <div class="monster">
+                        <div class="sprite"><img src="sprites/dpmfa606.png"><img src="sprites/grass.png" class="grass">
+                        </div>
+                        <div class="name">Aquafox</div>
+                        <div class="types">
+                            <div class="type"><img src="sprites/element-water.png" alt="Water"></div>
+                            <div class="type"><img src="sprites/element-water.png" alt="Water"></div>
+                        </div>
+                    </div>
+                    <img src="sprites/wild_spawn_arrow.png" alt="wild spawn" class="sprite arrow">
+                    <div class="list" style="height: 165px;">
+                        <ul>
+                            <li>Soltide Coast</li>
+                        </ul>
+                    </div>
+                    <img src="sprites/mutate_arrow.png" alt="wild spawn" class="sprite arrow">
+                    <div class="monster">
+                        <div class="sprite"><img src="sprites/dpmfa608.png"><img src="sprites/grass.png" class="grass">
+                        </div>
+                        <div class="name">Aquahorse</div>
+                        <div class="types">
+                            <div class="type"><img src="sprites/element-water.png" alt="Water"></div>
+                            <div class="type"><img src="sprites/element-water.png" alt="Water"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 style="border-bottom: 2px solid white">How to Read the Breeding Path</h2>
+                The breeding path that is displayed when you click on a monster on the left side panel is displayed
+                in a kind of bottom-up "step" order, with each step separated by a horizontal green bar. The final
+                step for the target monster is displayed at the top.
+                <p>
+                For each step, a way to obtain each parent will be shown below the next green line, in the lower step.
+                <p>
+                In the below example for the Anselen breeding rule, the monsters Maskhi and Ioneel are needed. In the
+                lower step, we can see ways to obtain both of these. Maskhi can be obtained through a breeding rule
+                for Iobot which can then be mutated into Maskhi. Ioneel can be obtained in the wild, with the map it can
+                be found in being displayed.
+
+                <div style="display: flex; flex-direction: column; width: fit-content">
+                    <div class="breeding-rule">
+                        <div class="monster">
+                            <div class="sprite"><img src="sprites/dpmfa055.png"></div>
+                            <div class="name">Maskhi</div>
+                            <div><img src="sprites/male.png" alt="Steel"></div>
+                            <div class="types">
+                                <div class="type"><img src="sprites/element-steel.png" alt="Steel"></div>
+                                <div class="type"><img src="sprites/element-earth.png" alt="Earth"></div>
+                            </div>
+                        </div>
+                        <div style="display: inline-flex; align-items: center; margin: 5px; font-size: xx-large;">+</div>
+                        <div class="monster">
+                            <div class="sprite"><img src="sprites/dpmfa046.png"><img src="sprites/grass.png" class="grass">
+                            </div>
+                            <div class="name">Ioneel</div>
+                            <div><img src="sprites/female.png" alt="Steel"></div>
+                            <div class="types">
+                                <div class="type"><img src="sprites/element-steel.png" alt="Steel"></div>
+                                <div class="type"><img src="sprites/element-electric.png" alt="Electric"></div>
+                            </div>
+                        </div>
+                        <div style="display: inline-flex; align-items: center; margin: 5px; font-size: xx-large;">=</div>
+                        <div class="monster">
+                            <div class="sprite"><img src="sprites/dpmfa568.png"></div>
+                            <div class="name">Anselen</div>
+                            <div class="types">
+                                <div class="type"><img src="sprites/element-divine.png" alt="Divine"></div>
+                                <div class="type"><img src="sprites/element-steel.png" alt="Steel"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="solid">
+                    <div class="breeding-rule">
+                        <div class="monster">
+                            <div><img src="sprites/male.png" alt="male"></div>
+                            <div class="types">
+                                <div class="type"><img src="sprites/element-earth.png" alt="Earth"></div>
+                                <div class="type"><img src="sprites/element-steel.png" alt="Steel"></div>
+                            </div>
+                        </div>
+                        <div style="display: inline-flex; align-items: center; margin: 5px; font-size: xx-large;">+</div>
+                        <div class="monster">
+                            <div><img src="sprites/female.png" alt="female"></div>
+                            <div class="types">
+                                <div class="type"><img src="sprites/element-earth.png" alt="Earth"></div>
+                                <div class="type"><img src="sprites/element-steel.png" alt="Steel"></div>
+                            </div>
+                        </div>
+                        <div style="display: inline-flex; align-items: center; margin: 5px; font-size: xx-large;">=</div>
+                        <div class="monster">
+                            <div class="sprite"><img src="sprites/dpmfa054.png"></div>
+                            <div class="name">Iobot</div>
+                            <div class="types">
+                                <div class="type"><img src="sprites/element-steel.png" alt="Steel"></div>
+                                <div class="type"><img src="sprites/element-steel.png" alt="Steel"></div>
+                            </div>
+                        </div>
+                        <img src="sprites/mutate_arrow.png" alt="wild spawn" class="sprite arrow">
+                        <div class="monster">
+                            <div class="sprite"><img src="sprites/dpmfa055.png"></div>
+                            <div class="name">Maskhi</div>
+                            <div class="types">
+                                <div class="type"><img src="sprites/element-steel.png" alt="Steel"></div>
+                                <div class="type"><img src="sprites/element-earth.png" alt="Earth"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wildSpawn">
+                        <div class="monster">
+                            <div class="sprite"><img src="sprites/dpmfa046.png"><img src="sprites/grass.png" class="grass">
+                            </div>
+                            <div class="name">Ioneel</div>
+                            <div class="types">
+                                <div class="type"><img src="sprites/element-steel.png" alt="Steel"></div>
+                                <div class="type"><img src="sprites/element-electric.png" alt="Electric"></div>
+                            </div>
+                        </div>
+                        <img src="sprites/wild_spawn_arrow.png" alt="wild spawn" class="sprite arrow">
+                        <div class="list" style="height: 164px;">
+                            <ul>
+                                <li>Guild Private Garden</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 style="border-bottom: 2px solid white">Unconfirmed Rules</h2>
+
+                Some rules are marked as unconfirmed. The monster card will have a red background, and the breeding path
+                will have a bright red box at the top saying "UNCONFIRMED".
+                <p>
+                Most of the rules we know of were from the old iteration of MRO
+                from over 10 years ago. The rules were carried over into the current iteration of the game so they should
+                still work, but they are marked as unconfirmed until someone tries the rule and sees that it results in
+                the correct child.
+                <p>
+                Be sure to check in on your monsters if trying an unconfirmed rule to make sure it works.
+
+                <div style="display: flex">
+                    <div class="monster unconfirmedMonster"><div class="sprite"><img src="sprites/dpmfa567.png"></div><div class="name">Ancess</div><div class="types"><div class="type"><img src="sprites/element-divine.png" alt="Divine"></div><div class="type"><img src="sprites/element-air.png" alt="Air"></div></div></div>
+                    <div class="unconfirmed">UNCONFIRMED</div>
+                </div>
+
+            </section>
+        </section>
+
+    </body>
+</html>

@@ -1,0 +1,193 @@
+:root {
+    color-scheme: light dark;
+}
+
+body {
+    background-color: light-dark(white, black);
+    color: light-dark(black, white);
+    margin:0;
+    height: 100%;
+}
+
+body > section {
+    top: 93px;
+}
+
+.aboutButton {
+    margin: 0 20px 0 auto;
+    padding: 0;
+    cursor: pointer;
+    width: 75px;
+    height: 75px;
+    border-color: transparent;
+    background: url(sprites/about.png)
+}
+
+.sprite {
+    position: relative;
+    display: inline;
+    height: 100%;
+    align-self: center;
+}
+
+.arrow {
+    position: relative;
+    display: inline;
+    margin: 0 5px;
+}
+
+.grass {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+.arrow .grass {
+    bottom: 50px;
+}
+
+.list {
+    border: 2px solid light-dark(black, darkgray);
+    border-radius: 10px;
+    margin: 2px;
+    overflow: auto;
+    padding-right: 10px;
+    min-width: fit-content;
+}
+
+.list > ul {
+    padding-left: 25px;
+}
+
+.wildSpawn {
+    padding: 5px;
+    margin-left: 10px;
+    display: inline-flex;
+}
+
+.wildSpawn .monster {
+}
+
+hr.solid {
+    border-top: 3px solid green;
+    width: 100%;
+}
+
+.header {
+    padding: 5px;
+    border-bottom: 2px solid light-dark(black, white);
+    display: flex;
+    background-color: light-dark(lightcyan, black);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.hidden {
+    display: none;
+}
+
+.unconfirmed {
+    border: 2px solid light-dark(black, darkgray);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    max-width: 200px;
+    height: 100%;
+    background-color: light-dark(white, darkred);
+}
+
+.search {
+    grid-column: 1 / -1;
+    margin-left: 2px;
+    width: 225px;
+    position: fixed;
+    top: 92px;
+}
+
+.monster-list {
+    border-right: 2px solid light-dark(black, white);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    float: left;
+    position: fixed;
+    left: 2px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 250px;
+    align-content: start;
+    padding-top: 25px;
+    height: calc(100vh - 117px);
+    z-index: 1;
+    background-color: light-dark(white, black);
+}
+
+.monster-list .monster {
+    cursor: pointer;
+}
+
+.breeding-path {
+    /*border: 1px solid blue;*/
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 250px;
+    padding: 0 10px;
+}
+
+.breeding-rule {
+    padding: 5px;
+    float: left;
+    margin-left: 10px;
+    display: flex;
+}
+
+.monster {
+    border: 2px solid light-dark(black, darkgray);
+    border-radius: 10px;
+    padding: 1px 5px;
+    text-align: center;
+    max-height: fit-content;
+    background-color: light-dark(white, #31364a);
+    place-content: center;
+}
+
+.unconfirmedMonster {
+    background-color: #4a2929;
+}
+
+.breeding-path .monster {
+    min-height: 160px;
+    min-width: 90px;
+}
+
+.types {
+    display: flex;
+    text-align: center;
+}
+
+.type {
+    width: stretch;
+    height: stretch;
+}
+
+.name {
+    display:block;
+    text-align:center;
+}
+
+@media screen and (max-width: 600px) {
+    .monster-list {
+        grid-template-columns: repeat(1, 1fr);
+        width: 135px;
+    }
+
+    .breeding-path {
+        margin-left: 135px;
+    }
+
+    .search {
+        max-width: 110px;
+    }
+}
