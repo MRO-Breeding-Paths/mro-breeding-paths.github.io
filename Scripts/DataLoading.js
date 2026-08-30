@@ -84,7 +84,7 @@ function LoadBreedingRules() {
     breedingRules.push({ ruleType: "match", father: "Vultia", mother: "Niegg(Black)", child: "Drezo", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Freil", mother: "Freil", child: "DualFreil", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Comerrel", mother: "Cuebear", child: "Embear", confirmed: true });
-    breedingRules.push({ ruleType: "match", father: "Freil", mother: "Valvette", child: "Faipan", confirmed: false });
+    breedingRules.push({ ruleType: "match", father: "Freil", mother: "Valvette", child: "Faipan", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Stelou", mother: "Niegg(White)", child: "Fayrator", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Kimorius", mother: "Niegg(Red)", child: "Felove", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Pteroize", mother: "Archelava", child: "Feurika", confirmed: true });
