@@ -162,7 +162,7 @@ function LoadBreedingRules() {
     breedingRules.push({ ruleType: "match", father: "Awesurge", mother: "Niegg(White)", child: "Voltriasse", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Raburtan", mother: "Tatranul", child: "Whinsper", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Wilight", mother: "Niegg(White)", child: "Willoel", confirmed: true });
-    breedingRules.push({ ruleType: "match", father: "Rinbor", mother: "Voltara", child: "Windra", confirmed: false });
+    breedingRules.push({ ruleType: "match", father: "Rinbor", mother: "Voltara", child: "Windra", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Stamgalaki", mother: "Steelke", child: "Wintelk", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Mitorch", mother: "Niegg(Black)", child: "Xeris", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Clourilla", mother: "Yerazee", child: "Yevii", confirmed: true });
