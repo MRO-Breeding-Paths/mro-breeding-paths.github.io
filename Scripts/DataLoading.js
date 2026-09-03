@@ -941,7 +941,7 @@ function LoadMonsterWeightings() {
     monsterWeightings.push({id: 646, name: 'Lemlee', mapName: 'Route 1b', weight: 0.25});
     monsterWeightings.push({id: 646, name: 'Lemlee', mapName: 'Route 2a', weight: 0.25});
     monsterWeightings.push({id: 646, name: 'Lemlee', mapName: 'Route 3a', weight: 0.25});
-    monsterWeightings.push({id: 646, name: 'Lemlee', mapName: 'Route 6', weight: 0.25});
+    monsterWeightings.push({id: 646, name: 'Lemlee', mapName: 'Path to Ember Ridge', weight: 0.25});
     monsterWeightings.push({id: 646, name: 'Lemlee', mapName: 'Seashoal Town', weight: 0.15});
     monsterWeightings.push({id: 764, name: 'Flawsy', mapName: 'Snow Peak 1a', weight: 0.25});
     monsterWeightings.push({id: 764, name: 'Flawsy', mapName: 'Snow Peak 1b', weight: 0.2});
@@ -1023,7 +1023,7 @@ function LoadMonsterWeightings() {
     monsterWeightings.push({id: 64, name: 'Turlip', mapName: 'Grand Garden Maze', weight: 0.11});
     monsterWeightings.push({id: 64, name: 'Turlip', mapName: 'Route 2b', weight: 0.15});
     monsterWeightings.push({id: 64, name: 'Turlip', mapName: 'Route 2c', weight: 0.13});
-    monsterWeightings.push({id: 64, name: 'Turlip', mapName: 'Route 6', weight: 0.2});
+    monsterWeightings.push({id: 64, name: 'Turlip', mapName: 'Path to Ember Ridge', weight: 0.2});
     monsterWeightings.push({id: 655, name: 'Cardeen', mapName: 'Route 2b', weight: 0.04});
     monsterWeightings.push({id: 133, name: 'Liful', mapName: 'Route 2b', weight: 0.001});
     monsterWeightings.push({id: 243, name: 'Flarepodge', mapName: 'Route 2c', weight: 0.1});
@@ -1176,8 +1176,8 @@ function LoadMonsterWeightings() {
     monsterWeightings.push({id: 711, name: 'Lauves', mapName: 'Verdant Farmlands 1D', weight: 0.003});
     monsterWeightings.push({id: 618, name: 'Ferleaf', mapName: 'Verdant Farmlands 1B', weight: 0.002});
     monsterWeightings.push({id: 618, name: 'Ferleaf', mapName: 'Verdant Farmlands 1C', weight: 0.002});
-    monsterWeightings.push({id: 1, name: 'Lealil', mapName: 'Route 6', weight: 0.04});
-    monsterWeightings.push({id: 120, name: 'Tasmalil', mapName: 'Route 6', weight: 0.01});
+    monsterWeightings.push({id: 1, name: 'Lealil', mapName: 'Path to Ember Ridge', weight: 0.04});
+    monsterWeightings.push({id: 120, name: 'Tasmalil', mapName: 'Path to Ember Ridge', weight: 0.01});
     monsterWeightings.push({id: 46, name: 'Ioneel', mapName: 'Guild Private Garden', weight: 0.25});
     monsterWeightings.push({id: 640, name: 'Scarlett', mapName: 'Guild Private Garden', weight: 0.04});
     monsterWeightings.push({id: 675, name: 'Geropian', mapName: 'Grand Garden Maze', weight: 0.2});
