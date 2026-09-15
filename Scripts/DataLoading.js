@@ -1185,5 +1185,24 @@ function LoadMonsterWeightings() {
     monsterWeightings.push({id: 110, name: 'Fellun', mapName: 'Route 1a', weight: 0.15});
     monsterWeightings.push({id: 614, name: 'Twigy', mapName: 'Route 1a', weight: 0.04});
     monsterWeightings.push({id: 616, name: 'Magy', mapName: 'Route 1a', weight: 0.04});
+    monsterWeightings.push({id: 627, name: 'Roachies', mapName: 'South Grayview Cave', weight: 0.25});
+    monsterWeightings.push({id: 224, name: 'Larvurn', mapName: 'South Grayview Cave', weight: 0.01});
+    monsterWeightings.push({id: 47, name: 'Pebercer', mapName: 'South Grayview Cave', weight: 0.15});
+    monsterWeightings.push({id: 224, name: 'Larvurn', mapName: 'Grayview Cave', weight: 0.06});
+    monsterWeightings.push({id: 15, name: 'Scathron', mapName: 'Grayview Cave', weight: 0.25});
+    monsterWeightings.push({id: 236, name: 'Spelp', mapName: 'Grayview Cave', weight: 0.08});
+    monsterWeightings.push({id: 714, name: 'Raunny', mapName: 'Grayview Cave', weight: 0.02});
+    monsterWeightings.push({id: 704, name: 'Tweetrille', mapName: 'Oldpine Town', weight: 0.2});
+    monsterWeightings.push({id: 41, name: 'Tatranul', mapName: 'Oldpine Town', weight: 0.16});
+    monsterWeightings.push({id: 317, name: 'Eleaf', mapName: 'Oldpine Town', weight: 0.1});
+    monsterWeightings.push({id: 644, name: 'Whewor', mapName: 'Spiders Den', weight: 0.25});
+    monsterWeightings.push({id: 675, name: 'Geropian', mapName: 'Spiders Den', weight: 0.16});
+    monsterWeightings.push({id: 91, name: 'Gralim', mapName: 'Spiders Den', weight: 0.04});
+    monsterWeightings.push({id: 758, name: 'Criwely', mapName: 'Spiders Den', weight: 0.003});
+    monsterWeightings.push({id: 636, name: 'Bushil', mapName: 'Route 5', weight: 0.2});
+    monsterWeightings.push({id: 124, name: 'Sharpony', mapName: 'Route 5', weight: 0.18});
+    monsterWeightings.push({id: 702, name: 'Birred', mapName: 'Route 5', weight: 0.15});
+    monsterWeightings.push({id: 767, name: 'Dratt', mapName: 'Route 5', weight: 0.002});
+    monsterWeightings.push({id: 141, name: 'Calvas', mapName: 'Route 5', weight: 0.001});
 
 }
