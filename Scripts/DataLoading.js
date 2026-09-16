@@ -152,7 +152,7 @@ function LoadBreedingRules() {
     breedingRules.push({ ruleType: "match", father: "Dintorh", mother: "Saur", child: "Stelou", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Cuebear", mother: "Tumbeaver", child: "Tinderloin", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Swamproot", mother: "Roshill", child: "Toxat", confirmed: true });
-    breedingRules.push({ ruleType: "match", father: "Rhinocorn", mother: "Raudren", child: "Triceros", confirmed: false });
+    breedingRules.push({ ruleType: "match", father: "Rhinocorn", mother: "Raudren", child: "Triceros", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Pteroize", mother: "Saur", child: "Trumperator", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Chaust", mother: "Minole", child: "Tumbeaver", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Pinplat", mother: "Niegg(Red)", child: "Turtuve", confirmed: true });
