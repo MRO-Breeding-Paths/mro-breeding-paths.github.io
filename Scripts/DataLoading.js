@@ -34,7 +34,7 @@ function LoadBreedingRules() {
     breedingRules.push({ ruleType: "type", father: "Water/Water", mother: "Water/Water", child: "Jesana", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Earth/Basic", mother: "Ancient/Basic", child: "Kintee", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Air/Basic", mother: "Electric/Basic", child: "Kwauwk", confirmed: false });
-    breedingRules.push({ ruleType: "type", father: "Basic/Air", mother: "Basic/Air", child: "Magy", confirmed: false });
+    breedingRules.push({ ruleType: "type", father: "Basic/Air", mother: "Basic/Air", child: "Magy", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Earth/Basic", mother: "Fire/Basic", child: "Mitorch", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Ghost/Air", mother: "Divine/Divine", child: "Monclow", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Steel/Basic", mother: "Basic/Air", child: "Ninstar", confirmed: true });
