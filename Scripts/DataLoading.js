@@ -18,7 +18,7 @@ function LoadBreedingRules() {
     breedingRules.push({ ruleType: "type", father: "Steel/Earth", mother: "Earth/Earth", child: "Democ", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Fire/Basic", mother: "Air/Basic", child: "Dino", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Earth/Basic", mother: "Basic/Basic", child: "Dratt", confirmed: true });
-    breedingRules.push({ ruleType: "type", father: "Earth/Basic", mother: "Steel/Basic", child: "Earwick", confirmed: false });
+    breedingRules.push({ ruleType: "type", father: "Earth/Basic", mother: "Steel/Basic", child: "Earwick", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Basic/Basic", mother: "Fire/Fire", child: "Efere", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Divine/Divine", mother: "Air/Air", child: "Enzerel", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Fire/Basic", mother: "Fire/Basic", child: "Fai", confirmed: true });
