@@ -33,7 +33,7 @@ function LoadBreedingRules() {
     breedingRules.push({ ruleType: "type", father: "Earth/Steel", mother: "Earth/Steel", child: "Iobot", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Water/Water", mother: "Water/Water", child: "Jesana", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Earth/Basic", mother: "Ancient/Basic", child: "Kintee", confirmed: true });
-    breedingRules.push({ ruleType: "type", father: "Air/Basic", mother: "Electric/Basic", child: "Kwauwk", confirmed: false });
+    breedingRules.push({ ruleType: "type", father: "Air/Basic", mother: "Electric/Basic", child: "Kwauwk", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Basic/Air", mother: "Basic/Air", child: "Magy", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Earth/Basic", mother: "Fire/Basic", child: "Mitorch", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Ghost/Air", mother: "Divine/Divine", child: "Monclow", confirmed: true });
@@ -48,7 +48,7 @@ function LoadBreedingRules() {
     breedingRules.push({ ruleType: "type", father: "Psychic/Electric", mother: "Divine/Divine", child: "Stafrin", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Basic/Basic", mother: "Steel/Steel", child: "Stuank", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Earth/Fire", mother: "Earth/Fire", child: "Tentant", confirmed: true });
-    breedingRules.push({ ruleType: "type", father: "Steel/Basic", mother: "Electric/Basic", child: "Terramite", confirmed: false });
+    breedingRules.push({ ruleType: "type", father: "Steel/Basic", mother: "Electric/Basic", child: "Terramite", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Earth/Air", mother: "Basic/Air", child: "Turble", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Air/Basic", mother: "Air/Basic", child: "Twigy", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Air/Air", mother: "Basic/Basic", child: "Uhuro", confirmed: true });
