@@ -8,7 +8,7 @@ function LoadBreedingRules() {
     breedingRules.push({ ruleType: "type", father: "Water/Basic", mother: "Air/Basic", child: "Budaune", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Earth/Basic", mother: "Earth/Basic", child: "Bushil", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Basic/Basic", mother: "Earth/Earth", child: "Calvas", confirmed: true });
-    breedingRules.push({ ruleType: "type", father: "Air/Basic", mother: "Steel/Basic", child: "Cardevil", confirmed: false });
+    breedingRules.push({ ruleType: "type", father: "Air/Basic", mother: "Steel/Basic", child: "Cardevil", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Steel/Basic", mother: "Air/Basic", child: "Causit", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Water/Earth", mother: "Water/Earth", child: "Chewii", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Ghost/Steel", mother: "Psychic/Basic", child: "Chronowraith", confirmed: true });
@@ -53,7 +53,7 @@ function LoadBreedingRules() {
     breedingRules.push({ ruleType: "type", father: "Air/Basic", mother: "Air/Basic", child: "Twigy", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Air/Air", mother: "Basic/Basic", child: "Uhuro", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Earth/Earth", mother: "Air/Air", child: "Venabee", confirmed: true });
-    breedingRules.push({ ruleType: "type", father: "Earth/Steel", mother: "Earth/Basic", child: "Veneedle", confirmed: false });
+    breedingRules.push({ ruleType: "type", father: "Earth/Steel", mother: "Earth/Basic", child: "Veneedle", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Psychic/Basic", mother: "Basic/Basic", child: "Xylator", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Earth/Earth", mother: "Earth/Earth", child: "Yukenrald", confirmed: true });
 
