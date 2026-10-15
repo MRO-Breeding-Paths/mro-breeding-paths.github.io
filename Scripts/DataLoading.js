@@ -115,7 +115,7 @@ function LoadBreedingRules() {
     breedingRules.push({ ruleType: "match", father: "Surfinne", mother: "Niegg(Red)", child: "Lilotl", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Mantipri", mother: "Niegg(White)", child: "Loxxic", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Denvix", mother: "Liuwoves", child: "Lunwere", confirmed: true });
-    breedingRules.push({ ruleType: "match", father: "Rafidize", mother: "Valvette", child: "Lycaiom", confirmed: false });
+    breedingRules.push({ ruleType: "match", father: "Rafidize", mother: "Valvette", child: "Lycaiom", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Valvette", mother: "Stowie", child: "Lyphon", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Bisonami", mother: "Stamson", child: "Magiox", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Psiantor", mother: "Triceros", child: "Malophant", confirmed: true });
