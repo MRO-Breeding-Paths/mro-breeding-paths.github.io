@@ -46,6 +46,7 @@ function LoadBreedingRules() {
     breedingRules.push({ ruleType: "type", father: "Water/Basic", mother: "Water/Basic", child: "Seefin", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Air/Basic", mother: "Fire/Basic", child: "Solreep", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Psychic/Electric", mother: "Divine/Divine", child: "Stafrin", confirmed: true });
+    breedingRules.push({ ruleType: "type", father: "Psychic/Basic", mother: "Air/Air", child: "Starmist", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Basic/Basic", mother: "Steel/Steel", child: "Stuank", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Earth/Fire", mother: "Earth/Fire", child: "Tentant", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Steel/Basic", mother: "Electric/Basic", child: "Terramite", confirmed: true });
