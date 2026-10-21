@@ -74,6 +74,7 @@ function LoadBreedingRules() {
     breedingRules.push({ ruleType: "match", father: "Anchana", mother: "Yukenrald", child: "Chanipen", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Awesurge", mother: "Minatros", child: "Chavenuse", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Mewskul", mother: "Berkimo", child: "Cheshine", confirmed: true });
+    breedingRules.push({ ruleType: "match", father: "Molamola", mother: "Firlen", child: "Crinefer", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Turtuve", mother: "Orchantid", child: "Cygnitan", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Detojynn", mother: "Maskhi", child: "Daedalor", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Kinettee", mother: "Buarajee", child: "Dauriasse", confirmed: true });
@@ -88,6 +89,7 @@ function LoadBreedingRules() {
     breedingRules.push({ ruleType: "match", father: "Freil", mother: "Valvette", child: "Faipan", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Stelou", mother: "Niegg(White)", child: "Fayrator", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Kimorius", mother: "Niegg(Red)", child: "Felove", confirmed: true });
+    breedingRules.push({ ruleType: "match", father: "Kroriare", mother: "Drezo", child: "Feramish", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Pteroize", mother: "Archelava", child: "Feurika", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Luciflare", mother: "Inferlauf", child: "Flarese", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Embreena", mother: "Niegg(White)", child: "Flarine", confirmed: true });
@@ -123,6 +125,7 @@ function LoadBreedingRules() {
     breedingRules.push({ ruleType: "match", father: "Pleasaster", mother: "Koiroyal", child: "Marlofin", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Laaewi", mother: "Niegg(Red)", child: "Melia", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Vulfate", mother: "Niegg(White)", child: "Menemei", confirmed: false });
+    breedingRules.push({ ruleType: "match", father: "Firlen", mother: "Molamola", child: "Molanger", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Minatros", mother: "Grizzick", child: "Moucroon", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Sharklett", mother: "Sharklett", child: "Orchane", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Phainfeind", mother: "Mureen(Attack)", child: "Penero", confirmed: true });
@@ -131,7 +134,7 @@ function LoadBreedingRules() {
     breedingRules.push({ ruleType: "match", father: "Bushil", mother: "Niegg(Red)", child: "Pinplat", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Hailoman", mother: "Buarajee", child: "Poiriasse", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Turlip", mother: "Cloflower", child: "Proseed", confirmed: true });
-    breedingRules.push({ ruleType: "match", father: "Statirat", mother: "Ratlash", child: "Pulse", confirmed: false });
+    breedingRules.push({ ruleType: "match", father: "Statirat", mother: "Ratlash", child: "Pulse", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Skylerene", mother: "Rinbor", child: "Quetzcotl", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Hopopo", mother: "Valvette", child: "Rabinasty", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Elvile", mother: "Kikid", child: "Raniron", confirmed: true });
@@ -145,7 +148,7 @@ function LoadBreedingRules() {
     breedingRules.push({ ruleType: "match", father: "Groviasse", mother: "Floraex", child: "Setarias", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Mitorch", mother: "Irise", child: "Sevris", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Sharklett", mother: "Sharmaul", child: "Sharkle", confirmed: true });
-    breedingRules.push({ ruleType: "match", father: "Comerrel", mother: "Birred", child: "Skuli", confirmed: false });
+    //breedingRules.push({ ruleType: "match", father: "Comerrel", mother: "Birred", child: "Skuli", confirmed: false });
     breedingRules.push({ ruleType: "match", father: "Leobanz", mother: "Niegg(White)", child: "Skwerl", confirmed: false });
     breedingRules.push({ ruleType: "match", father: "Dino", mother: "Dino", child: "Solreep", confirmed: false });
     breedingRules.push({ ruleType: "match", father: "Wotter", mother: "Prismpard", child: "Solrus", confirmed: true });
@@ -546,6 +549,11 @@ function LoadMonsterList() {
     monsters.push({id: 388, name: "Follixa", type1: "Frost", type2: "Ghost", firstForm: "Follixa"});
     monsters.push({id: 389, name: "Pinplat", type1: "Fire", type2: "Water", firstForm: "Pinplat"});
     monsters.push({id: 390, name: "Cygnitan", type1: "Fire", type2: "Air", firstForm: "Cygnitan"});
+    monsters.push({id: 394, name: "Kroriare", type1: "Ghost", type2: "Stone", firstForm: "Kroriare"});
+    monsters.push({id: 395, name: "Naddural", type1: "Steel", type2: "Demonic", firstForm: "Naddural"});
+    monsters.push({id: 396, name: "Ralivic", type1: "Fire", type2: "Demonic", firstForm: "Ralivic"});
+    monsters.push({id: 397, name: "Feramish", type1: "Ghost", type2: "Demonic", firstForm: "Feramish"});
+    monsters.push({id: 398, name: "Repaermir", type1: "Earth", type2: "Demonic", firstForm: "Repaermir"});
     monsters.push({id: 414, name: "Turtuve", type1: "Fire", type2: "Basic", firstForm: "Turtuve"});
     monsters.push({id: 421, name: "Craggy", type1: "Water", type2: "Earth", firstForm: "Craggy"});
     monsters.push({id: 422, name: "Clawvanch", type1: "Water", type2: "Steel", firstForm: "Craggy"});
@@ -557,6 +565,10 @@ function LoadMonsterList() {
     monsters.push({id: 481, name: "Chirperus", type1: "Air", type2: "Basic", firstForm: "Chirplet"});
     monsters.push({id: 482, name: "Easticker", type1: "Earth", type2: "Steel", firstForm: "Easticker"});
     monsters.push({id: 483, name: "Scarabolt", type1: "Steel", type2: "Electric", firstForm: "Scarabolt"});
+    monsters.push({id: 488, name: "Firlen", type1: "Basic", type2: "Fire", firstForm: "Firlen"});
+    monsters.push({id: 489, name: "Molamola", type1: "Basic", type2: "Fire", firstForm: "Molamola"});
+    monsters.push({id: 490, name: "Molanger", type1: "Fire", type2: "Air", firstForm: "Molanger"});
+    monsters.push({id: 491, name: "Crinefer", type1: "Fire", type2: "Ancient", firstForm: "Crinefer"});
     monsters.push({id: 500, name: "Icebreame", type1: "Ancient", type2: "Frost", firstForm: "Icebreame"});
     monsters.push({id: 511, name: "Wotter", type1: "Water", type2: "Basic", firstForm: "Wotter"});
     monsters.push({id: 512, name: "Solrus", type1: "Water", type2: "Divine", firstForm: "Solrus"});
