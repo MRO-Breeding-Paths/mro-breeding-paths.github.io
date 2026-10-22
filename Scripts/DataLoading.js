@@ -127,6 +127,7 @@ function LoadBreedingRules() {
     breedingRules.push({ ruleType: "match", father: "Vulfate", mother: "Niegg(White)", child: "Menemei", confirmed: false });
     breedingRules.push({ ruleType: "match", father: "Firlen", mother: "Molamola", child: "Molanger", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Minatros", mother: "Grizzick", child: "Moucroon", confirmed: true });
+    breedingRules.push({ ruleType: "match", father: "Kroriare", mother: "Xelixion", child: "Naddural", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Sharklett", mother: "Sharklett", child: "Orchane", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Phainfeind", mother: "Mureen(Attack)", child: "Penero", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Fellguli", mother: "Starija", child: "Phenke", confirmed: true });
