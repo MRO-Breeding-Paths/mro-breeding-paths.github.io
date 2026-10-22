@@ -138,9 +138,11 @@ function LoadBreedingRules() {
     breedingRules.push({ ruleType: "match", father: "Statirat", mother: "Ratlash", child: "Pulse", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Skylerene", mother: "Rinbor", child: "Quetzcotl", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Hopopo", mother: "Valvette", child: "Rabinasty", confirmed: true });
+    breedingRules.push({ ruleType: "match", father: "Polterwax", mother: "Kroriare", child: "Ralivic", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Elvile", mother: "Kikid", child: "Raniron", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Beoutigos", mother: "Oxatear", child: "Rasaii", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Steelke", mother: "Niegg(White)", child: "Reine", confirmed: true });
+    breedingRules.push({ ruleType: "match", father: "Toxat", mother: "Kroriare", child: "Repaermir", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Tongoross", mother: "Sarow", child: "Rewt", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Frooster", mother: "Archelava", child: "Rukarow", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Eelightning", mother: "Eelightning", child: "Salathunder", confirmed: true });
