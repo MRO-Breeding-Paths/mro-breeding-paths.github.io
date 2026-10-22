@@ -559,6 +559,9 @@ function LoadMonsterList() {
     monsters.push({id: 422, name: "Clawvanch", type1: "Water", type2: "Steel", firstForm: "Craggy"});
     monsters.push({id: 425, name: "Bushil(Blue)", type1: "Frost", type2: "Earth", firstForm: "Bushil(Blue)"});
     monsters.push({id: 426, name: "Bushil(Red)", type1: "Fire", type2: "Earth", firstForm: "Bushil(Red)"});
+    monsters.push({id: 427, name: "Moorth", type1: "Ghost", type2: "Earth", firstForm: "Moorth"});
+    monsters.push({id: 428, name: "Suvema", type1: "Earth", type2: "Ghost", firstForm: "Moorth"});
+    monsters.push({id: 429, name: "Vinexis", type1: "Ghost", type2: "Earth", firstForm: "Moorth"});
     monsters.push({id: 430, name: "Aquail", type1: "Air", type2: "Air", firstForm: "Aquail"});
     monsters.push({id: 431, name: "AeroValor", type1: "Air", type2: "Divine", firstForm: "Aquail"});
     monsters.push({id: 480, name: "Chirplet", type1: "Basic", type2: "Air", firstForm: "Chirplet"});
@@ -1260,4 +1263,43 @@ function LoadMonsterWeightings() {
     monsterWeightings.push({id: 211, name: 'Zale', mapName: 'Oldpine Jailfield', weight: 0.08});
     monsterWeightings.push({id: 96,  name: 'Lycoot', mapName: 'Oldpine Jailfield', weight: 0.04});
     monsterWeightings.push({id: 302, name: 'Neebee', mapName: 'Oldpine Jailfield', weight: 0.003});
+
+    // Halloween '26 Event
+
+    monsterWeightings.push({id: 704, name: 'Tweetrille', mapName: 'The Forgotten Lands', weight: 0.25});
+    monsterWeightings.push({id: 41, name: 'Tatranul', mapName: 'The Forgotten Lands', weight: 0.18});
+    monsterWeightings.push({id: 146, name: 'Skuli', mapName: 'The Forgotten Lands', weight: 0.002});
+    monsterWeightings.push({id: 488, name: 'Firlen', mapName: 'The Forgotten Lands', weight: 0.04});
+    monsterWeightings.push({id: 394, name: 'Kroriare', mapName: 'The Forgotten Lands', weight: 0.1});
+    monsterWeightings.push({id: 489, name: 'Molamola', mapName: 'The Forgotten Lands', weight: 0.04});
+    monsterWeightings.push({id: 355, name: 'Yangbat', mapName: 'Abandoned Mansion Ball Room', weight: 0.18});
+    monsterWeightings.push({id: 354, name: 'Yinbat', mapName: 'Abandoned Mansion Ball Room', weight: 0.18});
+    monsterWeightings.push({id: 627, name: 'Roachies', mapName: 'Abandoned Mansion Ball Room', weight: 0.25});
+    monsterWeightings.push({id: 280, name: 'Malikat', mapName: 'Abandoned Mansion Ball Room', weight: 0.1});
+    monsterWeightings.push({id: 91, name: 'Gralim', mapName: 'Abandoned Mansion Ball Room', weight: 0.04});
+    monsterWeightings.push({id: 706, name: 'Budaune', mapName: 'Ashen Sky Island', weight: 0.003});
+    monsterWeightings.push({id: 603, name: 'Cuebear', mapName: 'Ashen Sky Island', weight: 0.04});
+    monsterWeightings.push({id: 206, name: 'Vouramp', mapName: 'Ashen Sky Island', weight: 0.2});
+    monsterWeightings.push({id: 639, name: 'Comerrel', mapName: 'Ashen Sky Island', weight: 0.2});
+    monsterWeightings.push({id: 243, name: 'Flarepodge', mapName: 'Ashen Sky Island', weight: 0.1});
+    monsterWeightings.push({id: 296, name: 'Chimical', mapName: 'Ashen Sky Island', weight: 0.04});
+    monsterWeightings.push({id: 665, name: 'Pyrall', mapName: 'Ashen Sky Island', weight: 0.002});
+    monsterWeightings.push({id: 236, name: 'Spelp', mapName: 'The Dark Above', weight: 0.1});
+    monsterWeightings.push({id: 322, name: 'Elesnake', mapName: 'The Dark Above', weight: 0.18});
+    monsterWeightings.push({id: 614, name: 'Twigy', mapName: 'The Dark Above', weight: 0.04});
+    monsterWeightings.push({id: 644, name: 'Whewor', mapName: 'The Dark Above', weight: 0.25});
+    monsterWeightings.push({id: 645, name: 'Assasidin', mapName: 'The Dark Above', weight: 0.04});
+    monsterWeightings.push({id: 216, name: 'Slitherat', mapName: 'Wretched Waters', weight: 0.04});
+    monsterWeightings.push({id: 46, name: 'Ioneel', mapName: 'Wretched Waters', weight: 0.25});
+    monsterWeightings.push({id: 224, name: 'Larvurn', mapName: 'Wretched Waters', weight: 0.1});
+    monsterWeightings.push({id: 350, name: 'Raswert', mapName: 'Wretched Waters', weight: 0.18});
+    monsterWeightings.push({id: 859, name: 'Rezreli', mapName: 'Wretched Waters', weight: 0.002});
+    monsterWeightings.push({id: 81, name: 'Mouzip', mapName: 'Mysterious Ruins', weight: 0.2});
+    monsterWeightings.push({id: 673, name: 'Terramite', mapName: 'Mysterious Ruins', weight: 0.1});
+    monsterWeightings.push({id: 47, name: 'Pebercer', mapName: 'Mysterious Ruins', weight: 0.2});
+    monsterWeightings.push({id: 7, name: 'Pumolf', mapName: 'Mysterious Ruins', weight: 0.04});
+    monsterWeightings.push({id: 761, name: 'Preano', mapName: 'Mysterious Ruins', weight: 0.04});
+    monsterWeightings.push({id: 880, name: 'Snek', mapName: 'Mysterious Ruins', weight: 0.002});
+
+    // End Halloween '26 Event
 }
