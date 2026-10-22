@@ -1293,6 +1293,7 @@ function LoadMonsterWeightings() {
     monsterWeightings.push({id: 644, name: 'Whewor', mapName: 'The Dark Above', weight: 0.25});
     monsterWeightings.push({id: 645, name: 'Assasidin', mapName: 'The Dark Above', weight: 0.04});
     monsterWeightings.push({id: 645, name: 'Vultia', mapName: 'The Dark Above', weight: 0.004});
+    monsterWeightings.push({id: 645, name: 'Desmodius', mapName: 'The Dark Above', weight: 0.0002});
     monsterWeightings.push({id: 216, name: 'Slitherat', mapName: 'Wretched Waters', weight: 0.04});
     monsterWeightings.push({id: 46, name: 'Ioneel', mapName: 'Wretched Waters', weight: 0.25});
     monsterWeightings.push({id: 224, name: 'Larvurn', mapName: 'Wretched Waters', weight: 0.1});
