@@ -70,6 +70,8 @@ function PopulateMonsterList() {
         btn.dataset.monster = monster.name;
         btn.dataset.type1 = monster.type1;
         btn.dataset.type2 = monster.type2;
+        btn.dataset.father = rule.father;
+        btn.dataset.mother = rule.mother;
 
         btn.appendChild(monDiv);
         mons.appendChild(btn);
@@ -329,10 +331,14 @@ function filterMonsterList(evt) {
         let name = monElement.dataset.monster;
         let type1 = monElement.dataset.type1;
         let type2 = monElement.dataset.type2;
+        let father = monElement.dataset.father;
+        let mother = monElement.dataset.mother;
 
         if (!name.toLowerCase().includes(searchString) &&
             !type1.toLowerCase().includes(searchString) &&
-            !type2.toLowerCase().includes(searchString)) {
+            !type2.toLowerCase().includes(searchString) &&
+            !father.toLowerCase().includes(searchString) &&
+            !mother.toLowerCase().includes(searchString)) {
             monElement.classList.add("hidden");
         }
         else {
