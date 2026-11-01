@@ -58,7 +58,7 @@ function LoadBreedingRules() {
     breedingRules.push({ ruleType: "type", father: "Psychic/Basic", mother: "Basic/Basic", child: "Xylator", confirmed: true });
     breedingRules.push({ ruleType: "type", father: "Earth/Earth", mother: "Earth/Earth", child: "Yukenrald", confirmed: true });
 
-    breedingRules.push({ ruleType: "match", father: "Storicanne", mother: "Meloswan", child: "Ancess", confirmed: false });
+    breedingRules.push({ ruleType: "match", father: "Storicanne", mother: "Meloswan", child: "Ancess", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Bedugly", mother: "Elezahn", child: "Anchana", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Maskhi", mother: "Ioneel", child: "Anselen", confirmed: true });
     breedingRules.push({ ruleType: "match", father: "Armant", mother: "Rabullet", child: "Arillo", confirmed: true });
