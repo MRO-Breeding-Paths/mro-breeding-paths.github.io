@@ -1085,6 +1085,7 @@ function LoadMonsterWeightings() {
     monsterWeightings.push({id: 200, name: 'Seedchlin', mapName: 'Fernvine City', weight: 0.001});
     monsterWeightings.push({id: 259, name: 'Garvae', mapName: 'Fernvine Cave', weight: 0.1});
     monsterWeightings.push({id: 259, name: 'Garvae', mapName: 'Jungle Grove', weight: 0.1});
+    monsterWeightings.push({id: 575, name: 'Vulfate', mapName: 'Jungle Grove', weight: 0.0002});
     monsterWeightings.push({id: 30, name: 'Cordba', mapName: 'Fernvine Cave', weight: 0.04});
     monsterWeightings.push({id: 741, name: 'Liotee', mapName: 'Fernvine Cave', weight: 0.01});
     monsterWeightings.push({id: 44, name: 'Froglish', mapName: 'Beach Trail 1a', weight: 0.25});
